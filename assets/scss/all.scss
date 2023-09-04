@@ -1,11 +1,19 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
+@import '../../node_modules/bootstrap/scss/maps';
+@import "./utils/utilities";
 
+@import './helper/mixin';
 
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
 
+@import './components/custom-pagination';
+@import './components/tag';
+@import './components/scroll-text';
+
+@import './base';
 @import './pages/index.scss';
 
 @import "../../node_modules/bootstrap";

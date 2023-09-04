@@ -1,3 +1,91 @@
-.index-title {
-  font-size: 100px;
+.img-box{
+  height: 518px;
+  @include phone{
+    height: 350px;
+  }
+}
+
+.banner1{
+  background: url("../images/event/13.jpg") center center / cover;
+}
+
+.banner2{
+  background: url("../images/event/02.jpg") center center / cover;
+}
+
+.banner3{
+  background: url("../images/event/03.jpg") center center / cover;
+}
+
+.categoryImg{
+  width: 80px;
+  height: 80px;
+  @include phone{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.category{
+  transition: 0.4s;
+}
+.category:hover{
+  transform: translateY(-20px);
+}
+
+.seeMore{
+  line-height: 60px;
+  @include phone{
+    line-height: 32px;
+  }
+}
+
+.logoSterImg{
+  max-width: 24px;
+  @include phone{
+    max-width: 20px;
+  }
+}
+
+.eventImg{
+  height: 255px;
+  object-fit: cover;
+  @include phone{
+    height: 210px;
+  }
+}
+
+.onlineImg{
+  height: 317px;
+  object-fit: cover;
+  object-position: 0% 35%;
+  @include phone{
+    height: 158px;
+  }
+}
+
+.online-hl{
+  line-height: 1.4375;
+}
+
+.albums-tag {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-4deg);
+}
+
+.albums-img{
+  object-fit: cover;
+  height: 274px;
+  @include phone{
+    height: 267px;
+  }
+}
+
+.rotate-plus-2{
+  transform: rotate(2deg);
+}
+.rotate-minus-2{
+  transform: rotate(-2deg);
 }

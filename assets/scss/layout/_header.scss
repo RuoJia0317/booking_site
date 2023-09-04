@@ -1,4 +1,9 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.w-282{
+  min-width: 282px;
+  max-height: 55px;
+  @include phone{
+    min-width: 168px;
+    max-width: 168px;
+    max-height: 39px;
+  }
 }

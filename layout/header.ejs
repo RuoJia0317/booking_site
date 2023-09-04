@@ -1,4 +1,53 @@
-<h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
+<nav class="py-3 py-md-7 border-bottom border-dark border-3">
+  <div class="container d-flex justify-content-between align-items-center ">
+    <div class="d-flex align-items-center">
+      <img class="logo-size me-5" src="../assets/images/logo.png" alt="LOGO">
+    
+      <h1 class="ts-title fs-5 me-1 d-none d-md-block">7TAO</h1>
+      <h2 class="fs-11 fw-bold me-12 d-none d-md-block">活動訂票網</h2>
+      <div class="d-flex">
+        <input class="form-control input-height-sm px-3 px-md-6 py-2 py-md-5 w-282" type="text" placeholder="探索活動" aria-label="search input">
+        <button class="btn btn-dark px-3 px-md-5" type="submit">
+          <i class="icofont-search-1 text-primary fs-11"></i>
+        </button>
+      </div>
+    </div>
+    <div>
+      <div>
+        <button class="btn d-block d-md-none border border-dark border-1 rounded-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
+          <span class="material-symbols-sharp fs-12 align-middle">
+            menu
+            </span>
+        </button> 
+      </div>
+      <div class="d-none d-md-block">
+        <a class="me-6 text-dark link-dark-yellow" href="#">
+          <i class="icofont-ui-file me-1"></i>
+          <span class="ts-title">REGISTER</span>
+        </a>
+        <a class="text-dark link-dark-yellow" href="#">
+          <i class="icofont-ui-user me-1"></i> 
+          <span class="ts-title">LOGIN</span>
+        </a>
+      </div>
+    </div>
+
+    
+  </div>
+  <div class="container collapse pt-6" id="collapseMenu">
+    <ul class="ps-0 mb-0 d-flex flex-column ">
+      <li class="mb-3">
+        <a class="text-dark link-dark-yellow" href="#">
+          <i class="icofont-ui-file me-1"></i>
+          <span class="ts-title">REGISTER</span>
+        </a>
+      </li>
+      <li>
+        <a class="text-dark link-dark-yellow" href="#">
+          <i class="icofont-ui-user me-1"></i> 
+          <span class="ts-title">LOGIN</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

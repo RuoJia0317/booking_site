@@ -1,0 +1,16 @@
+.category_tag{
+  border: 1px solid $black;
+  border-left: 4px solid $black;
+  padding: 4px 24px;
+  transition: .3s;
+  display: block;
+  @include phone{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.category_tag:hover{
+  background-color: $black;
+  border-left: 4px solid $primary;
+  color: $white;
+}
