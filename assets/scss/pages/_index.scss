@@ -47,11 +47,27 @@
   }
 }
 
+
+
 .eventImg{
   height: 255px;
   object-fit: cover;
   @include phone{
     height: 210px;
+  }
+}
+.eventLink{
+  position: relative;
+  &:hover::before{
+    content: "";
+    width: 29px;
+    height: 29px;
+    background: $primary;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    display: block;
   }
 }
 
@@ -88,4 +104,18 @@
 }
 .rotate-minus-2{
   transform: rotate(-2deg);
+}
+
+.model-w{
+  min-width: 636px;
+  @include phone{
+    min-width: 351px;
+  }
+
+  .model-content-w{
+    max-width: 432px;
+    @include phone{
+      max-width: 319px;
+    }
+  }
 }

@@ -224,11 +224,11 @@
               </div>
               <button
                 type="button"
-                class="btn d-flex align-items-center py-0"
+                class="btn d-flex align-items-center py-0 eventLink"
                 data-bs-toggle="modal"
                 data-bs-target="#joinMember"
               >
-                <span class="ts-content">開賣中</span>
+                <span class="ts-content fw-bold">開賣中</span>
                 <span class="material-symbols-sharp">
                   keyboard_double_arrow_right
                 </span>
@@ -269,11 +269,11 @@
               </div>
               <button
                 type="button"
-                class="btn d-flex align-items-center py-0"
+                class="btn d-flex align-items-center py-0 eventLink"
                 data-bs-toggle="modal"
                 data-bs-target="#joinMember"
               >
-                <span class="ts-content">檢視活動</span>
+                <span class="ts-content fw-bold">檢視活動</span>
                 <span class="material-symbols-sharp">
                   keyboard_double_arrow_right
                 </span>
@@ -314,11 +314,11 @@
               </div>
               <button
                 type="button"
-                class="btn d-flex align-items-center py-0"
+                class="btn d-flex align-items-center py-0 eventLink"
                 data-bs-toggle="modal"
                 data-bs-target="#joinMember"
               >
-                <span class="ts-content">開賣中</span>
+                <span class="ts-content fw-bold">開賣中</span>
                 <span class="material-symbols-sharp">
                   keyboard_double_arrow_right
                 </span>
@@ -359,11 +359,11 @@
               </div>
               <button
                 type="button"
-                class="btn d-flex align-items-center py-0"
+                class="btn d-flex align-items-center py-0 eventLink"
                 data-bs-toggle="modal"
                 data-bs-target="#joinMember"
               >
-                <span class="ts-content">開賣中</span>
+                <span class="ts-content fw-bold">開賣中</span>
                 <span class="material-symbols-sharp">
                   keyboard_double_arrow_right
                 </span>
@@ -404,11 +404,11 @@
               </div>
               <button
                 type="button"
-                class="btn d-flex align-items-center py-0"
+                class="btn d-flex align-items-center py-0 eventLink"
                 data-bs-toggle="modal"
                 data-bs-target="#joinMember"
               >
-                <span class="ts-content">開賣中</span>
+                <span class="ts-content fw-bold">開賣中</span>
                 <span class="material-symbols-sharp">
                   keyboard_double_arrow_right
                 </span>
@@ -449,11 +449,11 @@
               </div>
               <button
                 type="button"
-                class="btn d-flex align-items-center py-0"
+                class="btn d-flex align-items-center py-0 eventLink"
                 data-bs-toggle="modal"
                 data-bs-target="#joinMember"
               >
-                <span class="ts-content">開賣中</span>
+                <span class="ts-content fw-bold">開賣中</span>
                 <span class="material-symbols-sharp">
                   keyboard_double_arrow_right
                 </span>
@@ -466,37 +466,39 @@
         <div
           class="modal fade"
           id="joinMember"
-          data-bs-backdrop="static"
-          data-bs-keyboard="false"
           tabindex="-1"
-          aria-labelledby="staticBackdropLabel"
+          aria-labelledby="modalLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+          <div class="modal-dialog modal-dialog-centered model-w">
+            <div class="modal-content border border-dark border-3">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                  Modal title
+                <h1
+                  class="modal-title fs-6 text-center fw-bold mx-auto"
+                  id="staticBackdropLabel"
+                >
+                  立刻成為7TAO會員
                 </h1>
                 <button
                   type="button"
-                  class="btn-close"
+                  class="btn lh-1"
                   data-bs-dismiss="modal"
                   aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">...</div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
                 >
-                  Close
+                  <span class="material-symbols-sharp fs-7"> close </span>
                 </button>
-                <button type="button" class="btn btn-primary">
-                  Understood
-                </button>
+              </div>
+              <div
+                class="modal-body d-flex flex-column align-items-center justify-content-center py-8 py-md-12"
+              >
+                <p class="ts-content model-content-w text-center">
+                  立刻成為七逃會員，加速活動報名流程並取得活動優惠資訊。
+                  您也可以先報名活動，日後再註冊帳號，
+                  系統會在認證您的Email後，協助您找回舊的訂單。
+                </p>
+                <a class="bg-dark text-primary py-2 px-8 mt-6" href="#"
+                  >立即成為會員</a
+                >
               </div>
             </div>
           </div>
@@ -512,21 +514,38 @@
         </div>
         <div class="row">
           <div class="col-12 col-md-7">
-            <img src="../assets/images/event/online.jpg" alt="切特居批踢" class="onlineImg w-100">
+            <img
+              src="../assets/images/event/online.jpg"
+              alt="切特居批踢"
+              class="onlineImg w-100"
+            />
           </div>
-          <div class="col-12 col-md-5 d-flex flex-column justify-content-between">
-            <h3 class="fs-9 fs-md-13 fw-bold mt-2 mt-md-0 online-hl">切特居批踢</h3>
+          <div
+            class="col-12 col-md-5 d-flex flex-column justify-content-between"
+          >
+            <h3 class="fs-9 fs-md-13 fw-bold mt-2 mt-md-0 online-hl">
+              切特居批踢
+            </h3>
             <ul class="list-style d-flex mt-2 mt-md-5 mb-0">
               <li class="me-2"><a class="category_tag" href="#">競賽</a></li>
               <li class="me-2"><a class="category_tag" href="#">科技</a></li>
               <li class="me-2"><a class="category_tag" href="#">有趣</a></li>
             </ul>
-            <p class="ts-content my-3 my-md-8">最近網路上很流行的AI程式 ChatGPT，可以用來聊天或是查詢、整理各種資料，不同的應用方式如雨後春筍般冒出來。
+            <p class="ts-content my-3 my-md-8">
+              最近網路上很流行的AI程式
+              ChatGPT，可以用來聊天或是查詢、整理各種資料，不同的應用方式如雨後春筍般冒出來。
               這個活動讓大家把自己最有特色的使用方法提出來讓大家參考，也會投票出最有趣的用法。
-              該讓其他人知道自己使用 ChatGPT 的姿勢才是最特別的那個了！</p>
-            <a href="#" class="d-flex align-items-center justify-content-center py-5 py-md-2 bg-dark w-100 d-block text-white ts-content fs-11 fs-md-8"> <span>查看活動詳情</span> <span class="material-symbols-sharp">
-              keyboard_double_arrow_right
-              </span></a>
+              該讓其他人知道自己使用 ChatGPT 的姿勢才是最特別的那個了！
+            </p>
+            <a
+              href="#"
+              class="d-flex align-items-center justify-content-center py-5 py-md-2 bg-dark w-100 d-block text-white ts-content fs-11 fs-md-8"
+            >
+              <span>查看活動詳情</span>
+              <span class="material-symbols-sharp">
+                keyboard_double_arrow_right
+              </span></a
+            >
           </div>
         </div>
       </section>
@@ -534,44 +553,86 @@
       <section>
         <div class="bg-dark">
           <div class="scroll-box">
-            <h2 class="scroll-text">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</h2>
-            <h2 class="scroll-text">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</h2>
+            <h2 class="scroll-text">
+              活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+            </h2>
+            <h2 class="scroll-text">
+              活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+            </h2>
           </div>
         </div>
 
-        <div class="container py-md-15">
+        <div class="container py-12 py-md-15">
           <ul class="row list-style flex-column flex-md-row align-items-center">
             <li class="col-10 col-md-3">
-              <div class="card h-100 p-3 pb-8 p-md-5 pb-md-12 border border-2 border-dark position-relative">
-                <p class="albums-tag bg-white px-5 py-2 text-center">社群活動</p>
-                <img class="mb-3 mb-md-3 albums-img" src="../assets/images/album/01.jpg" alt="無聲派對-閉閉嘴dancing">
+              <div
+                class="card h-100 p-3 pb-8 p-md-5 pb-md-12 border border-2 border-dark position-relative"
+              >
+                <p class="albums-tag bg-white px-5 py-2 text-center">
+                  社群活動
+                </p>
+                <img
+                  class="mb-3 mb-md-3 albums-img"
+                  src="../assets/images/album/01.jpg"
+                  alt="無聲派對-閉閉嘴dancing"
+                />
                 <h3 class="fs-9 fw-bold">
-                  <a href="#" class="link-dark stretched-link">無聲派對-閉閉嘴dancing</a>
+                  <a href="#" class="link-dark stretched-link"
+                    >無聲派對-閉閉嘴dancing</a
+                  >
                 </h3>
               </div>
             </li>
-            <li class="col-10 col-md-3">
-              <div class="card h-100 p-3 pb-8 p-md-5 pb-md-12 border border-2 border-dark position-relative rotate-plus-2">
-                <p class="albums-tag bg-white px-5 py-2 text-center">藝文活動</p>
-                <img class="mb-3 mb-md-3 albums-img" src="../assets/images/album/02.jpg" alt="拯救老店大作戰">
+            <li class="col-10 col-md-3 mt-19 mt-md-0">
+              <div
+                class="card h-100 p-3 pb-8 p-md-5 pb-md-12 border border-2 border-dark position-relative rotate-plus-2"
+              >
+                <p class="albums-tag bg-white px-5 py-2 text-center">
+                  藝文活動
+                </p>
+                <img
+                  class="mb-3 mb-md-3 albums-img"
+                  src="../assets/images/album/02.jpg"
+                  alt="拯救老店大作戰"
+                />
                 <h3 class="fs-9 fw-bold">
-                  <a href="#" class="link-dark stretched-link">拯救老店大作戰</a>
+                  <a href="#" class="link-dark stretched-link"
+                    >拯救老店大作戰</a
+                  >
                 </h3>
               </div>
             </li>
-            <li class="col-10 col-md-3">
-              <div class="card h-100 p-3 pb-8 p-md-5 pb-md-12 border border-2 border-dark position-relative rotate-minus-2">
-                <p class="albums-tag bg-white px-5 py-2 text-center">自我覺察</p>
-                <img class="mb-3 mb-md-3 albums-img" src="../assets/images/album/03.jpg" alt="內觀修行-部落篇">
+            <li class="col-10 col-md-3 mt-19 mt-md-0">
+              <div
+                class="card h-100 p-3 pb-8 p-md-5 pb-md-12 border border-2 border-dark position-relative rotate-minus-2"
+              >
+                <p class="albums-tag bg-white px-5 py-2 text-center">
+                  自我覺察
+                </p>
+                <img
+                  class="mb-3 mb-md-3 albums-img"
+                  src="../assets/images/album/03.jpg"
+                  alt="內觀修行-部落篇"
+                />
                 <h3 class="fs-9 fw-bold">
-                  <a href="#" class="link-dark stretched-link">內觀修行-部落篇</a>
+                  <a href="#" class="link-dark stretched-link"
+                    >內觀修行-部落篇</a
+                  >
                 </h3>
               </div>
             </li>
-            <li class="col-10 col-md-3">
-              <div class="card h-100 p-3 pb-8 p-md-5 pb-md-12 border border-2 border-dark position-relative rotate-plus-2">
-                <p class="albums-tag bg-white px-5 py-2 text-center">聯誼活動</p>
-                <img class="mb-3 mb-md-3 albums-img" src="../assets/images/album/04.jpg" alt="賞櫻野餐">
+            <li class="col-10 col-md-3 mt-19 mt-md-0">
+              <div
+                class="card h-100 p-3 pb-8 p-md-5 pb-md-12 border border-2 border-dark position-relative rotate-plus-2"
+              >
+                <p class="albums-tag bg-white px-5 py-2 text-center">
+                  聯誼活動
+                </p>
+                <img
+                  class="mb-3 mb-md-3 albums-img"
+                  src="../assets/images/album/04.jpg"
+                  alt="賞櫻野餐"
+                />
                 <h3 class="fs-9 fw-bold">
                   <a href="#" class="link-dark stretched-link">賞櫻野餐</a>
                 </h3>
@@ -580,17 +641,101 @@
           </ul>
         </div>
 
-
-
-
         <div class="bg-dark">
           <div class="scroll-box">
-            <h2 class="scroll-text">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</h2>
-            <h2 class="scroll-text">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</h2>
+            <h2 class="scroll-text">
+              活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+            </h2>
+            <h2 class="scroll-text">
+              活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+            </h2>
           </div>
         </div>
       </section>
+      <!-- 聯絡我們 -->
+      <section class="container pt-8 pb-12 p-md-15">
+        <div class="row gx-0 flex-wrap flex-md-nowrap">
+          <div class="col-12 col-md-6 border border-dark border-2">
+            <div
+              class="py-5 px-3 px-md-8 fs-8 fs-md-5 border-bottom border-dark border-2"
+            >
+              #FOLLOW US
+            </div>
+            <div class="py-5 px-3 p-md-8">
+              <p class="ts-content mb-5 mb-md-8">
+                想第一時間獲得新奇有趣的活動資訊？<br />
+                追蹤我們的社群吧！<br />
+                也歡迎你聯繫我們，提供好玩有趣的活動企劃。
+              </p>
+              <ul class="list-style mb-0">
+                <li class="d-flex align-items-center mb-5">
+                  <span class="bg-dark p-2 lh-1 me-5"
+                    ><i class="icofont-ui-email text-white"></i
+                  ></span>
+                  <a
+                    class="link-dark ts-content"
+                    href="mailto:7tao.event@gmail.com"
+                    >7tao.event@gmail.com</a
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-5">
+                  <span class="bg-dark p-2 lh-1 me-5"
+                    ><i class="icofont-phone text-white"></i
+                  ></span>
+                  <a class="link-dark ts-content" href="tel:+09123123123"
+                    >09123123123</a
+                  >
+                </li>
+                <li class="d-flex align-items-center">
+                  <span class="bg-dark p-2 lh-1 me-5"
+                    ><i class="icofont-facebook text-white"></i
+                  ></span>
+                  <a class="link-dark ts-content" href="#">7TAO七逃</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column col-12 col-md-6 border border-start-md-0 border-dark border-2 mt-6 mt-md-0"
+          >
+            <div
+              class="py-5 px-3 px-md-8 fs-8 fs-md-5 border-bottom border-dark border-2"
+            >
+              #SUBSCRIBE US
+            </div>
+            <div class="h-100 d-flex flex-column justify-content-between">
+              <div class="pt-5 px-3 pt-md-8 px-md-8">
+                <p class="ts-content mb-5 mb-md-8">
+                  訂閱電子報送折價券！<br />
+                  定期精選文章資訊及最新優惠資訊，<br />
+                  還不通通給我訂閱起來？
+                </p>
+                <input
+                  class="w-100 form-control py-5 px-6"
+                  type="email"
+                  placeholder="輸入Email"
+                />
+              </div>
+              <button
+                class="btn bg-dark w-100 text-white link-primary d-flex align-items-center justify-content-center py-5 py-md-2 mt-3 mt-md-0"
+              >
+                <span class="ts-content">確認訂閱</span>
+                <span class="material-symbols-sharp">
+                  keyboard_double_arrow_right
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="border-top border-bottom border-dark border-3 py-12 py-md-15">
+        <p class="fs-9 fs-md-13 text-center">
+          此刻打盹，你將做夢；此刻學習，你將圓夢
+        </p>
+        <p class="fs-14 fs-md-9 text-center mt-3 mt-md-5">——我也不知道誰說的</p>
+      </div>
     </main>
+    <%- include('./layout/footer'); -%>
     <script type="module" src="../main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </body>
