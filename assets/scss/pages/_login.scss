@@ -1,0 +1,12 @@
+.loginBox{
+  padding-top: 60px;
+  padding-bottom: 175px;
+  @include phone{
+    padding-top: 24px;
+    padding-bottom: 264px;
+  }
+  .logoStarImg{
+    width: 32px;
+  }
+
+}
